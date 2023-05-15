@@ -6,10 +6,12 @@ import Footer from '../components/MyFooter.vue'
 
 <template>
   <Header />
-  <iframe class="w-full aspect-video h-96" src="https://www.youtube.com/embed/EIyixC9NsLI"
-    title="Badgers : animated music video : MrWeebl" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
+  <div class="aspect-video">
+    <iframe class="w-full h-full" src="https://www.youtube.com/embed/EIyixC9NsLI"
+      title="Badgers : animated music video : MrWeebl" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
   <div class="bg-neutral-900 text-white mt">
     <h2 class="p-2 text-4xl font-semibold text-white">H2</h2>
   </div>
