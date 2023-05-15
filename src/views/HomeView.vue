@@ -6,7 +6,7 @@ import Footer from '../components/MyFooter.vue'
 
 <template>
   <Header />
-  <div class="aspect-video">
+  <div class="aspect-video lg:w-full lg:h-96">
     <iframe class="w-full h-full" src="https://www.youtube.com/embed/EIyixC9NsLI"
       title="Badgers : animated music video : MrWeebl" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
